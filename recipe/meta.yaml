@@ -1,5 +1,5 @@
 {% set name = "pyocse" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyocse-{{ version }}.tar.gz
-  sha256: c7e04164ef937de9eda9125110ee16986d7f2dec97cd134acfc5c1a93ee91d03
+  sha256: e976db10bf49e77741e3f274d6f66da34c8bf2c778bb035f5c86db26f0c4e4f2
 
 build:
   noarch: python
